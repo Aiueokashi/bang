@@ -1,4 +1,8 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+</head>
+<body>
 <script src="./bangbangboom-game.js"></script>
 <script>
   let GameConfig = {
@@ -39,3 +43,5 @@
   }
   GameStart()
 </script>
+</body>
+</html>
