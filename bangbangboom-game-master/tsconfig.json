@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es2019",
+        "module": "none",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "types": [
+            "inversify"
+        ],
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+
+        "outDir": "./build",
+        "declaration": true,
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "build",
+        "node_modules"
+    ]
+}
